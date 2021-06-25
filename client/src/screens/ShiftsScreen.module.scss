@@ -1,0 +1,9 @@
+@import '../styles/mixins', '../styles/variables';
+
+.PageTitle {
+  @include h1-styles;
+}
+
+.SectionTitle {
+  @include h2-styles;
+}

@@ -1,0 +1,16 @@
+@import './styles/variables';
+
+body {
+  margin: 0;
+  font-family: $montserrat;
+  font-size: $default-font-size;
+  background: #f8f8f8;
+  color: $primary-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
